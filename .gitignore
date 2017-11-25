@@ -1,0 +1,10 @@
+Debug/
+Release/
+.settings/
+*.cfg
+
+genericboard_hal_lib/HAL_Driver/Release_Notes.html
+genericboard_hal_lib/HAL_Driver/*.chm
+
+.DS_Store
+Thumbs.db
