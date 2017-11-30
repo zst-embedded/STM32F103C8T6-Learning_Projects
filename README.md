@@ -1,7 +1,8 @@
 # STM32F103C8T6 Learning Projects
 
 This is a collection of projects which I have done for the generic STM32F103 Minimum System Development Board (commonly known as Blue Pill).
-Projects are done using the [SW4STM32 toolchain](http://www.st.com/en/development-tools/sw4stm32.html) using the STM32Cube HAL.
+
+These projects use the STM32Cube HAL and STM32CubeMX. The IDE used is [SW4STM32](http://www.st.com/en/development-tools/sw4stm32.html) or [Keil uVision ARM MDK](http://www2.keil.com/mdk5).
 
 Project                                            | Done on    | Category           | Extra Hardware
 ---------------------------------------------------|:----------:| ------------------ | -----------------
@@ -15,13 +16,13 @@ Project                                            | Done on    | Category      
 [ADC-PWM_HAL]                                      | 2017-11-25 | ADC, PWM           | LEDs, Potentiometer
 
 
-[BlinkLED]: ./projects/BlinkLED
-[PushButtonPolling]: ./projects/PushButtonPolling
-[PushButtonPolling_HAL]: ./projects/PushButtonPolling_HAL
-[PushButtonInterrupt]: ./projects/PushButtonInterrupt
-[PushButtonInterrupt_HAL]: ./projects/PushButtonInterrupt_HAL
-[Timer-BlinkLED]: ./projects/Timer-BlinkLED
-[Timer-MusicalTone]: ./projects/Timer-MusicalTone
-[ADC-PWM_HAL]: ./projects/[ADC-PWM_HAL]
+[BlinkLED]: ./projects-sw4stm32/BlinkLED
+[PushButtonPolling]: ./projects-sw4stm32/PushButtonPolling
+[PushButtonPolling_HAL]: ./projects-sw4stm32/PushButtonPolling_HAL
+[PushButtonInterrupt]: ./projects-sw4stm32/PushButtonInterrupt
+[PushButtonInterrupt_HAL]: ./project-sw4stm32/PushButtonInterrupt_HAL
+[Timer-BlinkLED]: ./projects-sw4stm32/Timer-BlinkLED
+[Timer-MusicalTone]: ./projects-sw4stm32/Timer-MusicalTone
+[ADC-PWM_HAL]: ./projects-sw4stm32/[ADC-PWM_HAL]
 
 ## [Setup Guide + References](additional/setup.md)
