@@ -11,7 +11,9 @@ Project                                            | Done on    | Category      
 [PushButtonInterrupt]                              | 2017-10-15 | External Interrupt | Push Button
 [PushButtonInterrupt_HAL]                          | 2017-10-15 | External Interrupt | Push Button
 [Timer-BlinkLED]                                   | 2017-10-29 | Timer              | 
-[Timer-MusicalTone]                                | 2017-10-29 | External Interrupt | Buzzer, Push Button
+[Timer-MusicalTone]                                | 2017-10-29 | Timer              | Buzzer, Push Button
+[ADC-PWM_HAL]                                      | 2017-11-25 | ADC, PWM           | LEDs, Potentiometer
+
 
 [BlinkLED]: ./projects/BlinkLED
 [PushButtonPolling]: ./projects/PushButtonPolling
@@ -20,5 +22,6 @@ Project                                            | Done on    | Category      
 [PushButtonInterrupt_HAL]: ./projects/PushButtonInterrupt_HAL
 [Timer-BlinkLED]: ./projects/Timer-BlinkLED
 [Timer-MusicalTone]: ./projects/Timer-MusicalTone
+[ADC-PWM_HAL]: ./projects/[ADC-PWM_HAL]
 
 ## [Setup Guide + References](additional/setup.md)
