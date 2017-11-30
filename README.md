@@ -14,7 +14,7 @@ Project                                            | Done on    | Category      
 [Timer-BlinkLED]                                   | 2017-10-29 | Timer              | 
 [Timer-MusicalTone]                                | 2017-10-29 | Timer              | Buzzer, Push Button
 [ADC-PWM_HAL]                                      | 2017-11-25 | ADC, PWM           | LEDs, Potentiometer
-
+[PWM-MusicalTone]                                  | 2017-11-30 | PWM                | Buzzer, Push Button
 
 [BlinkLED]: ./projects-sw4stm32/BlinkLED
 [PushButtonPolling]: ./projects-sw4stm32/PushButtonPolling
@@ -23,6 +23,7 @@ Project                                            | Done on    | Category      
 [PushButtonInterrupt_HAL]: ./project-sw4stm32/PushButtonInterrupt_HAL
 [Timer-BlinkLED]: ./projects-sw4stm32/Timer-BlinkLED
 [Timer-MusicalTone]: ./projects-sw4stm32/Timer-MusicalTone
-[ADC-PWM_HAL]: ./projects-sw4stm32/[ADC-PWM_HAL]
+[ADC-PWM_HAL]: ./projects-sw4stm32/ADC-PWM_HAL
+[PWM-MusicalTone]: ./projects-keil/PWM-MusicalTone
 
 ## [Setup Guide + References](additional/setup.md)
