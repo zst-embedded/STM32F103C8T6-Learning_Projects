@@ -15,6 +15,7 @@ Project                                            | Done on    | Category      
 [Timer-MusicalTone]                                | 2017-10-29 | Timer              | Buzzer, Push Button
 [ADC-PWM_HAL]                                      | 2017-11-25 | ADC, PWM           | LEDs, Potentiometer
 [PWM-MusicalTone]                                  | 2017-11-30 | PWM                | Buzzer, Push Button
+[16x2-LCD-PWM]                                     | 2017-12-02 | PWM, Interfacing   | HD44780 LCD display<br>(with RGB backlight)
 
 [BlinkLED]: ./projects-sw4stm32/BlinkLED
 [PushButtonPolling]: ./projects-sw4stm32/PushButtonPolling
@@ -25,5 +26,6 @@ Project                                            | Done on    | Category      
 [Timer-MusicalTone]: ./projects-sw4stm32/Timer-MusicalTone
 [ADC-PWM_HAL]: ./projects-sw4stm32/ADC-PWM_HAL
 [PWM-MusicalTone]: ./projects-keil/PWM-MusicalTone
+[16x2-LCD-PWM]: ./projects-keil/16x2-LCD-PWM
 
 ## [Setup Guide + References](additional/setup.md)
