@@ -16,6 +16,8 @@ Project                                            | Done on    | Category      
 [ADC-PWM_HAL]                                      | 2017-11-25 | ADC, PWM           | LEDs, Potentiometer
 [PWM-MusicalTone]                                  | 2017-11-30 | PWM                | Buzzer, Push Button
 [16x2-LCD-PWM]                                     | 2017-12-02 | PWM, Interfacing   | HD44780 LCD display<br>(with RGB backlight)
+[SPI-Write]                                        | 2017-12-09 | SPI                | MAX7219 + 8x8 LED Matrix
+[SPI-Write_HAL]                                    | 2017-12-09 | SPI                | MAX7219 + 8x8 LED Matrix
 
 [BlinkLED]: ./projects-sw4stm32/BlinkLED
 [PushButtonPolling]: ./projects-sw4stm32/PushButtonPolling
@@ -27,5 +29,7 @@ Project                                            | Done on    | Category      
 [ADC-PWM_HAL]: ./projects-sw4stm32/ADC-PWM_HAL
 [PWM-MusicalTone]: ./projects-keil/PWM-MusicalTone
 [16x2-LCD-PWM]: ./projects-keil/16x2-LCD-PWM
+[SPI-Write]: ./projects-sw4stm32/SPI-Write
+[SPI-Write_HAL]: ./projects-sw4stm32/SPI-Write_HAL
 
 ## [Setup Guide + References](additional/setup.md)
