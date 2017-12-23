@@ -19,9 +19,10 @@ Project                                            | Done on    | Category      
 [SPI-Write]                                        | 2017-12-09 | SPI                | MAX7219 + 8x8 LED Matrix
 [SPI-Write_HAL]                                    | 2017-12-09 | SPI                | MAX7219 + 8x8 LED Matrix
 
-***Projects appended with `_HAL` are those using the Cube HAL library to setup the peripherals***
-***Projects appended with `_MX` are those generated using STM32CubeMX.***
-***Projects without anything appended are those using direct register defines to setup the peripherals***
+#### Project name suffix
+- ***Projects appended with `_HAL` are those using the Cube HAL library to setup the peripherals***
+- ***Projects appended with `_MX` are those generated using STM32CubeMX.***
+- ***Projects without anything appended are those using direct register defines to setup the peripherals***
 
 [BlinkLED]: ./projects-sw4stm32/BlinkLED
 [PushButtonPolling]: ./projects-sw4stm32/PushButtonPolling
