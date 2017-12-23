@@ -14,10 +14,14 @@ Project                                            | Done on    | Category      
 [Timer-BlinkLED]                                   | 2017-10-29 | Timer              | 
 [Timer-MusicalTone]                                | 2017-10-29 | Timer              | Buzzer, Push Button
 [ADC-PWM_HAL]                                      | 2017-11-25 | ADC, PWM           | LEDs, Potentiometer
-[PWM-MusicalTone]                                  | 2017-11-30 | PWM                | Buzzer, Push Button
-[16x2-LCD-PWM]                                     | 2017-12-02 | PWM, Interfacing   | HD44780 LCD display<br>(with RGB backlight)
+[PWM-MusicalTone_MX]                               | 2017-11-30 | PWM                | Buzzer, Push Button
+[16x2-LCD-PWM_MX]                                  | 2017-12-02 | PWM, Interfacing   | HD44780 LCD display<br>(with RGB backlight)
 [SPI-Write]                                        | 2017-12-09 | SPI                | MAX7219 + 8x8 LED Matrix
 [SPI-Write_HAL]                                    | 2017-12-09 | SPI                | MAX7219 + 8x8 LED Matrix
+
+***Projects appended with `_HAL` are those using the Cube HAL library to setup the peripherals***
+***Projects appended with `_MX` are those generated using STM32CubeMX.***
+***Projects without anything appended are those using direct register defines to setup the peripherals***
 
 [BlinkLED]: ./projects-sw4stm32/BlinkLED
 [PushButtonPolling]: ./projects-sw4stm32/PushButtonPolling
@@ -27,8 +31,8 @@ Project                                            | Done on    | Category      
 [Timer-BlinkLED]: ./projects-sw4stm32/Timer-BlinkLED
 [Timer-MusicalTone]: ./projects-sw4stm32/Timer-MusicalTone
 [ADC-PWM_HAL]: ./projects-sw4stm32/ADC-PWM_HAL
-[PWM-MusicalTone]: ./projects-keil/PWM-MusicalTone
-[16x2-LCD-PWM]: ./projects-keil/16x2-LCD-PWM
+[PWM-MusicalTone_MX]: ./projects-keil/PWM-MusicalTone_MX
+[16x2-LCD-PWM_MX]: ./projects-keil/16x2-LCD-PWM_MX
 [SPI-Write]: ./projects-sw4stm32/SPI-Write
 [SPI-Write_HAL]: ./projects-sw4stm32/SPI-Write_HAL
 
