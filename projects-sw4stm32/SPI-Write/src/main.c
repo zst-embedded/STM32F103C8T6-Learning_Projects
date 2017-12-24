@@ -1,17 +1,3 @@
-/**
- * STM32F103C8T6
- * Blue Pill Board
- *
- * SPI using MAX7219 to drive an 8x8 LED matrix
- * Each pixel is turned on one by one.
- *
- * Connections:
- *   CS  - PA4 | Software slave select
- *   CLK - PA5 | SPI clock
- *   DIN - PA7 | SPI MOSI
- *   NC  - PA6 | SPI MISO
- */
-
 #include "stm32f1xx.h"
 
 #define MAX7219_MODE_DECODE       0x0900

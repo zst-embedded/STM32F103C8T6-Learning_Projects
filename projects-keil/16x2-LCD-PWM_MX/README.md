@@ -2,13 +2,18 @@
 
 ### Description
 
-This is a Hello World project using Adafruit 16x2 HD44780 character LCD display (with RGB Backlight).
+	This is a Hello World project using Adafruit 16x2 HD44780 character LCD display (with RGB Backlight).
 
-An LCD library (`mylcd.h/mylcd.c`) is created from scratch.
+	An LCD library (`mylcd.h/mylcd.c`) is created from scratch.
 
-To control the RGB backlight, inverted PWM is generated on PA[1:3]
-(active-low backlight)
+	To control the RGB backlight, inverted PWM is generated on PA[1:3]
+	(active-low backlight)
 
+	---
+
+	IDE:
+	- Keil uVision 5
+	
 ### Pin Connections
 
 ***Take note of the separate 5V supply from the MCU's 3V3 supply***

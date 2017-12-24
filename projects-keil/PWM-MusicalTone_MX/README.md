@@ -21,3 +21,8 @@
 
 	PC13 is the on-board LED. It is active-low and
 	is turned on when the tone is playing.
+
+	---
+
+	IDE:
+	- Keil uVision 5

@@ -1,10 +1,3 @@
-/**
- * STM32F103C8T6
- * Blue Pill Board
- *
- * Blinking LED on PC13
- */
-
 #include "stm32f1xx.h"
 
 int main(void) {
