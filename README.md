@@ -28,7 +28,7 @@ Project                                            | Done on    | Category      
 [PushButtonPolling]: ./projects-sw4stm32/PushButtonPolling
 [PushButtonPolling_HAL]: ./projects-sw4stm32/PushButtonPolling_HAL
 [PushButtonInterrupt]: ./projects-sw4stm32/PushButtonInterrupt
-[PushButtonInterrupt_HAL]: ./project-sw4stm32/PushButtonInterrupt_HAL
+[PushButtonInterrupt_HAL]: ./projects-sw4stm32/PushButtonInterrupt_HAL
 [Timer-BlinkLED]: ./projects-sw4stm32/Timer-BlinkLED
 [Timer-MusicalTone]: ./projects-sw4stm32/Timer-MusicalTone
 [ADC-PWM_HAL]: ./projects-sw4stm32/ADC-PWM_HAL
