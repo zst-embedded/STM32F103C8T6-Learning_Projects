@@ -83,3 +83,42 @@ https://forum.sparkfun.com/viewtopic.php?f=18&t=35249#wrap
 
 https://electronics.stackexchange.com/questions/230036/problems-connecting-st-link-v2-and-stm32f4-discovery-board
 
+
+## Symbolic link for drivers (STM32CubeMX and SW4STM32)
+
+	# create symbolic link so we don't need to download duplicates
+	ln -s ~/.ac6/SW4STM32/firmwares ~/STM32Cube/Repository
+
+---
+
+## Creating C++ project in Keil uVision 5
+
+> In Project Window: 
+
+> ***[Right-click project] > Options for Target > C/C++ > Misc Controls***
+
+    --C99 --CPP11
+
+> ***[Right-click `main.c`]***
+
+    main.cpp
+
+    C++ Source File
+
+
+#### Resources
+https://electronics.stackexchange.com/questions/279524/stm32-interrupts-and-c-dont-go-well-together
+http://www.openstm32.org/forumthread2509
+https://stackoverflow.com/questions/35288808/first-project-for-stm32-with-hal-in-c
+https://community.st.com/thread/39920-what-are-your-experiences-of-c-on-this-platform
+http://www.keil.com/support/docs/3869.htm
+
+
+#### C++ Name Mangling
+- https://isocpp.org/wiki/faq/mixing-c-and-cpp#cpp-calls-c
+- https://en.wikipedia.org/wiki/Name_mangling
+- https://stackoverflow.com/questions/36504275/using-c-names-in-c
+- https://stackoverflow.com/questions/2168241/is-it-required-to-add-extern-c-in-source-file-also
+
+> Note: Open `.map` file (as a text file) to see linker process
+
